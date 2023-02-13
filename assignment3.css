@@ -1,0 +1,79 @@
+h1
+{
+    color:red;
+    background-color:dimgray
+}
+
+h2
+{
+    color:brown;
+    background-color:tan;
+}
+
+h3
+{
+    color:darkorchid;
+    background-color:lightpink;
+}
+
+.purpletext
+{
+    color:purple;
+    background-color:mediumpurple;
+}
+
+#divblue
+{
+    color:blue;
+    background-color:dodgerblue;
+}
+
+#divgreen
+{
+    color:green;
+    background-color:lightgreen;
+}
+
+.spanstyle
+{
+    color:orangered;
+    background-color:aquamarine;
+}
+
+.sunset
+{
+    color:coral;
+    background-color: sienna;
+}
+
+.paragraphclass
+{
+    color: green;
+    background-color: darkkhaki;
+}
+
+.pink
+{
+    color: pink;
+}
+
+.sequence
+{
+    background-color: lightcoral;
+}
+
+a:active
+{
+    color: #ff0000;
+  }
+  a:visited 
+  {
+    color: green;
+  }
+  a:hover 
+  {
+    color: yellow;
+  }
+  
+
+  
