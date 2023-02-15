@@ -1,0 +1,46 @@
+#headerstyle
+{
+    color:white;
+    background-color: powderblue;
+}
+
+.blacktext
+{
+    color:black;
+}
+
+.bluetext
+{
+    color:blue;
+}
+
+.yellowtext
+{
+    color:darkgoldenrod;
+}
+
+.blackandyellow
+{
+    background-color:yellow;
+}
+#yellowbackground
+{
+    background-color:yellow;
+}
+
+.redtext
+{
+    color:red;
+}
+
+.greenandyellow
+{
+    color:yellow;
+    background-color:green;
+}
+
+.greenbackground
+{
+    background-color:lightgreen;
+}
+
