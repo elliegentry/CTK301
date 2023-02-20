@@ -1,0 +1,133 @@
+h1
+{
+    color:red;
+    background-color:dimgray
+}
+
+h2
+{
+    color:brown;
+    background-color:tan;
+}
+
+h3
+{
+    color:darkorchid;
+    background-color:lightpink;
+}
+
+.purpletext
+{
+    color:purple;
+    background-color:mediumpurple;
+}
+
+#divblue
+{
+    color:blue;
+    background-color:dodgerblue;
+}
+
+#divgreen
+{
+    color:green;
+    background-color:lightgreen;
+}
+
+.spanstyle
+{
+    color:orangered;
+    background-color:aquamarine;
+}
+
+.sunset
+{
+    color:coral;
+    background-color: sienna;
+    text-align: center;
+}
+
+.paragraphclass
+{
+    color: green;
+    background-color: darkkhaki;
+}
+
+.pink
+{
+    color: pink;
+}
+
+.sequence
+{
+    background-color: lightcoral;
+}
+
+a:active
+{
+    color: #ff0000;
+  }
+  a:visited 
+  {
+    color: green;
+  }
+  a:hover 
+  {
+    color: yellow;
+  }
+
+header
+{
+        font-family: Arial, Helvetica, sans-serif;
+} 
+
+main
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+h1
+{
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2
+{
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3
+{
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4
+{
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.imgmodel 
+{
+    border: 20px solid black;
+    padding: 10px 10px 10px 10px ;
+    margin: 10px 10px 10px 10px;
+    background-color: yellow;
+}
+
+body
+{
+    background-image: url(frog.jpg);
+}
+
+.textjustify 
+{
+    text-align: justify;
+}
