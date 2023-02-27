@@ -46,6 +46,11 @@ nav li a:hover
     color:white;
 }
 
+nav li  a:visited 
+{
+    color:white;
+    text-decoration: none;
+}
 h2
 {
     font-family: Helvetica, Arial, sans-serif;
