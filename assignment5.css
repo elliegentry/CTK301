@@ -1,0 +1,104 @@
+h1
+{
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 1px solid black;
+    width: 1200px;
+    margin-bottom: 20px;
+    background-color:white;
+    padding:20px;
+}
+
+body
+{
+    background-image: url(a5bg.png);
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li
+{
+    border: 1px solid black;
+    width: 180px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color:darkblue;
+    display:inline-block;
+}
+
+nav li a
+{
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding:15px;
+}
+
+nav li a:hover
+{
+    background-color:blue;
+    text-decoration: none;
+    color:white;
+}
+
+h2
+{
+    font-family: Helvetica, Arial, sans-serif;
+    border-bottom: 5px solid black;
+}
+
+.whitebox
+{
+    border: 1px solid black;
+    width: 1200px;
+    margin-bottom: 20px;
+    background-color:white;
+    padding:20px;
+}
+
+.internal
+{
+    text-align: justify;
+}
+
+a:active
+{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:visited 
+  {
+    color: blue;
+    font-weight:bold;
+    text-decoration: none;
+  }
+  a:hover 
+  {
+    color: red;
+    text-decoration: underline;
+  }
+
+  .linktext
+  {
+    font-weight:bold;
+    text-decoration: none;
+  }
+  footer
+  {
+    border: 10px solid white;
+    width: 1200px;
+    margin-bottom: 20px;
+    background-color:darkblue;
+    padding:10px;
+    color:white;
+    font-style:italic;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
