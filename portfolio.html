@@ -2,51 +2,53 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Ellie Gentry Porfolio</title>
+	<title>Ellie Gentry Portfolio</title>
 	<link href="portfolio.css" rel="stylesheet" type="text/css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
-	<link
-	rel="stylesheet"
-	href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
-  />
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
 </head>
 <body>
 	<div id="wrapper">
 		<header>
-			<img src ="Purple Gradient Stream Starting Twitch Banner (800 × 350 px) (200 × 125 px) (100 × 65 px) (1200 × 100 px).png" alt="Ellie Gentry with a brush stroke behind it">
+			<a href="portfolio.html"><img src ="Purple Gradient Stream Starting Twitch Banner (800 × 350 px) (200 × 125 px) (100 × 65 px) (1200 × 100 px).png" alt="Game Design with a brush stroke behind it"></a>
 		</header>
 		<nav>
 			<ul>
-			<li><a href="Game Design.html">Game Design</a></li>
-			<li><a href="Creative Technology.html">Creative Technology</a></li>
-			<li><a href="Personal Work.html">Personal Work</a></li>
-			<li><a href="About Me.html">About Me</a></li>
+			<li><a href="GameDesign.html"><img src ="Game Design.png" alt="Game Design with a brush stroke behind it"></a></li>
+			<li><a href="CreativeTechnology.html"><img src ="Creative Technologies.png" alt="Creative Technologies with a brush stroke behind it"></a></li>
+			<li><a href="PersonalWork.html"><img src ="Personal Work.png" alt="Personal Work with a brush stroke behind it"></a></li>
+			<li><a href="AboutMe.html"><img src ="About Me.png" alt="About Me with a brush stroke behind it"></a></li>
 			</ul>
 		</nav>
+		
+		<div id="mainclass">
+			<h2><img src ="Featured Projects.png"></h2>
+			<main>
+			<div id="divcenter">
+			<a href="Drawing - 100 Artists.jpg" data-fancybox="gallery" data-caption="This image was made for CTK 201, it was done with crayons">
+				<img src="Drawing - 100 Artists.jpg">
+			  </a>
+			  <a href="Untitled design.png" data-fancybox="gallery" data-caption="This was an analog game for CTK351 made for an assignment designing games with low mechanics and high context">
+				<img src="Untitled design.png">
+			  </a>
+			  <a href="fishes.jpg" data-fancybox="gallery" data-caption="This is a personal assignment of koi fish made with water colors">
+				<img src="fishes.jpg">
+			  </a>
+			</div>
 
-		<main>
-			<h2>Featured Projects</h2>
-			<div id="myCarousel" class="f-carousel">
-				<div class="f-carousel__slide"><img src="My project.jpg"></div>
-				<div class="f-carousel__slide"><img src="My project (1).jpg"></div>
-				<div class="f-carousel__slide"><img src="My project (2).jpg"></div>
-			  </div>
+		</main>
+		
+		<script>   
+			Fancybox.bind("[data-fancybox]", {});
+		 </script>
 
-</main>
-<script>
-	const container = document.getElementById("myCarousel");
-const options = { infinite: false };
 
-new Carousel(container, options);
-</script>
 		<footer>
-			<p>Contact Me!</p>
-            <p>Email: elliecgentry@gmail.com</p>
-            <p>Instagram: elliegentryarts<i class="bi bi-instagram"></i></p>
+			<img src ="footer.png" alt="Ellie Gentry's contact info with a brush stroke behind it">
 		</footer>
 	</div>
 </body>

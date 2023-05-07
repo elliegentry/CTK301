@@ -1,5 +1,6 @@
-body {
-  background-color: #999999;
+body 
+{
+  background-color: #FFACDB;
 }
 
 #wrapper 
@@ -21,7 +22,7 @@ header
   background-color: white;
   font-family: 'Gochi Hand', cursive;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
 nav 
@@ -32,20 +33,13 @@ nav
 nav ul
 {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     text-align: center;
 }
 
 nav li
 {
-    border: 1px solid black;
-    width: 180px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    background-color:#F12B9B;
+    width: 275px;
     display:inline-block;
-    border-radius: 20px;
     text-align: center;
 
 }
@@ -55,57 +49,69 @@ nav li a
     color:white;
     text-decoration: none;
     display: block;
-    padding:10px;
 }
 
-main
+#mainclass
 {
-  grid-column:span 6;
+  grid-column: span 12;
   text-align: center;
 }
+ main img
+ {
+  width:25%;
+ }
 
-
-section h2
+ h2
 {
-  background-color: pink;
+
   color: white;
-  border: 1px solid black;
-  box-shadow: 10px 10px 10px #999;
-  border-radius: 20px;
   text-align: center;
+  width: 100%;
 }
 
 footer
 {
   grid-column: span 12;
-  background-color: #FFACDB;
+  background-color: white;
   color:white;
-  border: 1px solid #F12B9B;
   border-radius: 20px;
 }
 
+footer img
+{
+  width: 100%;
+  text-align: center;
+}
 .center 
 {
   display: block;
   text-align: center ;
 }
 
-#myCarousel
+#divcenter
 {
-  margin-bottom: 24 px;
-  grid-column: span 12;
+  grid-column:span 12;
   text-align: center;
 }
 
-#myCarousel img
+main
 {
-  size-adjust: 50%;
-  width:100%;
+  grid-column:span 12;
+}
+
+h2
+{
+  text-align: center;
+  width: 100%;
+}
+main section img
+{
+  width: 100%;
   text-align: center;
 }
 
-#myCarousel .f-carousel__slide
+main h2 img
 {
+  width: 50%;
   text-align: center;
 }
-

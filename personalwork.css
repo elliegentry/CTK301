@@ -1,0 +1,124 @@
+body 
+{
+  background-color: #FFACDB;
+}
+
+#wrapper 
+{
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  text-align: center;
+}
+
+header
+{
+  grid-column: span 12;
+  background-color: white;
+  font-family: 'Gochi Hand', cursive;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+nav 
+{
+  grid-column: span 12;
+}
+
+nav ul
+{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li
+{
+    width: 275px;
+    display:inline-block;
+    text-align: center;
+
+}
+
+nav li a
+{
+    color:white;
+    text-decoration: none;
+    display: block;
+}
+
+#mainclass
+{
+  grid-column: span 12;
+  text-align: center;
+}
+ main img
+ {
+  width:25%;
+ }
+
+ h2
+{
+
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+footer
+{
+  grid-column: span 12;
+  background-color: white;
+  color:white;
+  border-radius: 20px;
+}
+
+footer img
+{
+  width: 100%;
+  text-align: center;
+}
+.center 
+{
+  display: block;
+  text-align: center ;
+}
+
+#divcenter
+{
+  grid-column:span 12;
+  text-align: center;
+}
+
+main
+{
+  grid-column:span 12;
+}
+
+h2
+{
+  text-align: center;
+  width: 100%;
+}
+main section img
+{
+  width: 50%;
+  text-align: center;
+}
+
+main h2 img
+{
+  width: 25%;
+  text-align: center;
+}
+
+main section img
+{
+    grid-column:span 4;
+
+
+}
