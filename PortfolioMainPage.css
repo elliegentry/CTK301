@@ -1,0 +1,112 @@
+body 
+{
+  background-color: #000000;
+}
+
+#wrapper 
+{
+  margin: 24px auto;
+  width: 1800px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  text-align: center;
+}
+
+header
+{
+  grid-column: span 12;
+  background-color: white;
+}
+
+nav 
+{
+  grid-column: span 12;
+}
+
+nav ul
+{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li
+{
+    width: 275px;
+    display:inline-block;
+    text-align: center;
+
+}
+
+nav li a
+{
+    color:white;
+    text-decoration: none;
+    display: block;
+}
+
+
+#mainclass
+{
+  grid-column: span 12;
+  text-align: center;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+main img
+{
+  max-width: 50%;
+  max-height: 50%;
+}
+
+ h2
+{
+
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+footer
+{
+  grid-column: span 12;
+  background-color: white;
+  color:white;
+  border-radius: 20px;
+}
+
+footer img
+{
+  text-align: center;
+  padding-top: 40px;
+}
+
+#Contact
+{
+    width: 100%;
+}
+
+#SocialLinks
+{
+    width:15%;
+    display:inline-block;
+
+}
+.center 
+{
+  display: block;
+  text-align: center ;
+}
+
+#divcenter
+{
+  grid-column:span 12;
+  text-align: center;
+}
+
+
+
